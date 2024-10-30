@@ -2,14 +2,14 @@ import com.opensymphony.xwork2.ActionSupport;
 
 public class HelloAction extends ActionSupport{
 
-	private String massage;
+	private String message;
 	
 	public String execute() {
-		massage = "Hello World!";
+		message = "Hello World!";
 		return SUCCESS;
 	}
 	
-	public String getMassage() {
-		return massage;
+	public String getMessage() {
+		return message;
 	}
 }
