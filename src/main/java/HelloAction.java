@@ -9,7 +9,7 @@ public class HelloAction extends ActionSupport{
 		return SUCCESS;
 	}
 	
-	public String gerMassage() {
+	public String getMassage() {
 		return massage;
 	}
 }
